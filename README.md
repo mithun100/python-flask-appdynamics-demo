@@ -31,7 +31,7 @@ docker run -p 3000:3000 python-flask-appdynamics-demo
 
 Access the application by 
 
-````
+```
 curl localhost:3000
 ```
 
