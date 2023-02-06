@@ -18,7 +18,7 @@ Modify appdynamics.cfg and place all the necessary AppDynamics related informati
 Build the Docker file
 
 ```
-docker build -t python-flask-appdynamics-demo .
+docker build --no-cache -t python-flask-appdynamics-demo .
 
 ```
 
