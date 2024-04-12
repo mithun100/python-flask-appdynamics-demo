@@ -1,4 +1,4 @@
-FROM python:3.6
+FROM --platform=linux/amd64 python:3.6
 ENV APPD_AGENT_VERSION=23.2.0.5678
 MAINTAINER Mithun Banerjee
 COPY . /app
